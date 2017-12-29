@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/spl"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:layout_height="100dp" />
+    <TextView
+        android:gravity="center"
+        android:text="Welcome"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="48dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/ED_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:background="@drawable/shape"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:hint="Email Or Phone"/>
+        <EditText
+            android:id="@+id/ED_password"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:hint="Password"
+            />
+       <Button
+           android:id="@+id/BT_login"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:background="@drawable/shape"
+           android:layout_marginLeft="8dp"
+           android:text="login"
+           android:layout_marginTop="16dp"
+           android:layout_marginRight="8dp"
+           android:backgroundTint="@color/colorPrimaryDark"
+           />
+        <TextView
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
